@@ -48,3 +48,5 @@ NOTE: The last two parameters are optional. If they are missing the default valu
 	Number_of_substitutions
 
 ## How to work with a new zeolite
+
+The software contains the information to generate structures for the MFI, MOR, FAU, RHO, TON and MEL frameworks. However, it is implemented to work with all the zeolites. Therefore, to generate structures of other frameworks, only the corresponding files need to be added in the directories "data/atom_sites" and "data/unit_cell". Also, the new zeolite needs to be specified in the first line of generate.input.
