@@ -31,7 +31,7 @@ Here the content of the repository is described.
 
 (9) libraries.h: contains all the libraries used.
 
-(10) log: contains the current state of the program and changes and improvements that still need to be done.
+(10) log.dat: contains the current state of the program and changes and improvements that still need to be done.
 
 
 ## Structure of generate.input
