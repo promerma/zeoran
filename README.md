@@ -23,6 +23,7 @@ The generate.input file needs to have a particular structure. Please, note that 
 
 The amount and type of Extra_parameters depend on the algorithm we are using (chains/clusters/merw/random). In each case, these parameters are:
 
+#### chains
 
 
 ## How to work with a new zeolite
