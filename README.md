@@ -10,6 +10,17 @@
 ## Description
 This repository was done as part of my Master's thesis at the MS&M group. Its main goal is to generate multiple .cif files with zeolite structures having different aluminium substitutions. The software is entirely written in C++ and contains a bash script to execute it, which requires the g++ compiler to be installed. For a detailed description of the algorithms used to generate the zeolite frameworks and the program itself, please check the .pdf file available in this repository.
 
+## Run the program
+The repository contains an executable shell script that compiles and executes the program. To execute the program open the terminal in the directory containing this file and type:
+
+	./execute
+	
+#### Requirements:
+	
+	1. The g++ needs to be installed.
+	2. The data directory needs to be in the current directory.
+	3. The files functions.cpp, generate.input, global.h, heaaders.h and libraries.h need to be in the current directory.
+
 ## Content
 Here the content of the repository is described. 
 
