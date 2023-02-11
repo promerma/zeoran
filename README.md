@@ -13,8 +13,17 @@ This repository was done as part of my Master's thesis at the MS&M group. Its ma
 ## Content
 Here the content of the repository is described. 
 
-(1) data
+(1) data/atom_sites: Contains the atomic positions of all the atoms forming a single unit cell of each zeolite. The structure of a line of this file is: atom_id atom_type x y z charge.
 
+(2) data/unit_cell: Contains the basic information of the unit cell of each framework.
+
+(3) execute: shell script to run the program.
+
+(4) functions.cpp: contains all the functions implemented to run the program, including the main function.
+
+(5) generate.input: input file.
+
+(6)
 
 ## Structure of generate.input
 The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This strcture is as follows:
