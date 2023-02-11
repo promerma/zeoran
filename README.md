@@ -8,7 +8,17 @@
 	February 10, 2023
 
 ## Description
-This repository was done as part of my Master's thesis at the MS&M group. Its main goal is to generate multiple .cif files with zeolite structures having different aluminium substitutions. The software is entirely written in C/C++ and contains a bash script to execute it, which requires the g++ compiler to be installed. For a detailed description of the algorithms used to generate the zeolite frameworks and the program itself, please check the .pdf file available in this repository.
+This repository was done as part of my Master's thesis at the MS&M group. Its main goal is to generate multiple .cif files with zeolite structures having different aluminum substitutions. The aluminum substitutions are randomly generated from 4 different probability distributions, implemented by 4 different algorithms:
+
+(1) chains: Al atoms are introduced forming chains of consecutive Al-O-Al bonds. The number and lengths of the chains are given as an input.
+
+(2) clusters: A given number of Al atoms are introduced in a small spatial region.
+
+(3) merw: A given number of Al atoms are introduced "as spread as possibly" in the structure, i.e., maximizing the entropy of the framework.
+
+(4) random: A given number of Al atoms are introduced by sampling a uniform distribution.
+
+For a detailed description of the algorithms used to generate the zeolite frameworks and the program itself, please check the .pdf file available in this repository. The software is entirely written in C/C++ and contains a bash script to execute it. 
 
 ## Run the program
 The repository contains an executable shell script that compiles and executes the program. To execute the program open the terminal in the directory containing this file and type:
