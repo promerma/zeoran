@@ -88,7 +88,7 @@ The amount and type of Extra_parameters depend on the algorithm we are using (ch
 	Number_of_equilibration_steps
 	Number_of_visits
 
-NOTE: The last two parameters are optional. If they are missing the default values are 100 and 20 respectively. Note that if changed, both of them need to be specified.
+NOTE: The last two parameters are optional. If they are missing the default values are 100 and 20 respectively. Note that if changed, both of them need to be specified. More information about these parameters can be found in the file generate_zeolite_frameworks.pdf.
 
 #### random:
 
