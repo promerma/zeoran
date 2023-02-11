@@ -16,9 +16,13 @@ This repository was done as part of my Master's thesis at the MS&M group. Its ma
 The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This strcture is as follows:
 
 Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+
 Algorithm (chains/clusters/merw/random)
+
 Name_of_output_directory
+
 Number_of_structures_to_be_generated
+
 Extra_parameters
 
 The amount and type of Extra_parameters depend on the algorithm we are using (chains/clusters/merw/random). In each case, these parameters are:
