@@ -11,6 +11,10 @@
 This repository was done as part of my Master's thesis at the MS&M group. Its main goal is to generate multiple .cif files with zeolite structures having different aluminium substitutions. The software is entirely written in C++ and contains a bash script to execute it, which requires the g++ compiler to be installed.
 
 ## Content
+Here the content of the repository is described. 
+
+(1) data
+
 
 ## Structure of generate.input
 The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This strcture is as follows:
