@@ -23,7 +23,28 @@ The generate.input file needs to have a particular structure. Please, note that 
 
 The amount and type of Extra_parameters depend on the algorithm we are using (chains/clusters/merw/random). In each case, these parameters are:
 
-#### chains
+#### chains:
 
+	Number_of_chains
+	Number_of_substitutions_in_first_chain
+	Number_of_substitutions_in_second_chain
+	...
+	Number_of_substitutions_in_last_chain
+
+#### clusters:
+
+	Number_of_substitutions
+	
+#### merw:
+	
+	Number_of_substitutions
+	Number_of_equilibration_steps
+	Number_of_visits
+
+NOTE: The last two parameters are optional. If they are missing the default values are 100 and 20 respectively. Note that if changed, both of them need to be specified.
+
+#### random:
+
+	Number_of_substitutions
 
 ## How to work with a new zeolite
