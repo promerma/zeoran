@@ -1,4 +1,4 @@
-# Generate-Zeolite-Frameworks
+# Generate Zeolite Frameworks
 
 ## Author's information
 	Pablo Romero Marimon
