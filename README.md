@@ -1,5 +1,7 @@
 # Zeoran
 
+ZEOlite RANdom generation
+
 ## Author's information
 	Pablo Romero Marimon
 	Eindhoven University of Technology
