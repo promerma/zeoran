@@ -13,7 +13,7 @@ int main (void) {
 	ifstream fin;
 
 	//Use current time as seed for random generator
-    srand(time(NULL));
+    	srand(time(NULL));
 
 	//Read input
 	fin.open("generate.input");
