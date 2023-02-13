@@ -22,20 +22,6 @@ This repository was done as part of my Master's thesis at the MS&M group. Its ma
 
 For a detailed description of the algorithms used to generate the zeolite frameworks and the program itself, please check the .pdf file available in this repository. The software is entirely written in C/C++ and contains a Shell script to execute it. 
 
-## Run the program
-The repository contains an executable shell script that compiles and executes the program. To execute the program open the terminal in the directory containing this file and type:
-
-	./execute
-	
-The first time, it might be necessary to give execution permission to the file execute. This can be done by right-click on properties or through the terminal by typing:
-
-	chmod +x execute
-
-#### Requirements:
-	
-	1. The g++ needs to be installed.
-	2. The data directory needs to be in the current directory.
-	3. The files functions.cpp, generate.input, global.h, heaaders.h and libraries.h need to be in the current directory.
 
 ## Content
 Here the content of the repository is described. 
@@ -59,6 +45,22 @@ Here the content of the repository is described.
 (9) libraries.h: contains all the libraries used.
 
 (10) log.dat: contains the current state of the program and changes and improvements that still need to be done.
+
+
+## Run the program
+The repository contains an executable shell script that compiles and executes the program. To execute the program open the terminal in the directory containing this file and type:
+
+	./execute
+	
+The first time, it might be necessary to give execution permission to the file execute. This can be done by right-click on properties or through the terminal by typing:
+
+	chmod +x execute
+
+#### Requirements:
+	
+	1. The g++ needs to be installed.
+	2. The data directory needs to be in the current directory.
+	3. The files functions.cpp, generate.input, global.h, heaaders.h and libraries.h need to be in the current directory.
 
 
 ## Structure of generate.input
