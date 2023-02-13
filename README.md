@@ -1,4 +1,6 @@
-# Generate Zeolite Frameworks
+# Zeoran
+
+Random zeolite generation
 
 ## Author's information
 	Pablo Romero Marimon
