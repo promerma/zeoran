@@ -52,7 +52,7 @@ The repository contains an executable shell script that compiles and executes th
 
 	./execute
 	
-The first time, it might be necessary to give execution permission to the file execute. This can be done by right-click on properties or through the terminal by typing:
+The first time, it might be necessary to give execution permission to the file execute. This can be done by right-clicking on the file > properties or through the terminal by typing:
 
 	chmod +x execute
 
