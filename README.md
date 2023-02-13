@@ -1,7 +1,5 @@
 # Zeoran
 
-Random zeolite generation
-
 ## Author's information
 	Pablo Romero Marimon
 	Eindhoven University of Technology
