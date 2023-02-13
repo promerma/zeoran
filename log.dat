@@ -6,3 +6,5 @@ State of the program: The program can be used and all structures generated are c
 Tasks that remain in the TODO list:
 
   -If the Si/Al ratio is low, depending on the alocation of the previous Al atoms, the code might not be able to generate the desired structure. In that case, the program is forced to finish.
+
+  -The document zeoran.pdf is still missing.
