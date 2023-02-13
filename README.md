@@ -36,7 +36,7 @@ Here the content of the repository is described.
 
 (5) generate.input: input file.
 
-(6) generate_zeolite_frameworks.pdf: detailed explanation of the program.
+(6) zeoran.pdf: detailed explanation of the program.
 
 (7) global.h: contains the definition of the global variables and structures used in the program.
 
