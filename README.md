@@ -1,4 +1,4 @@
-# Zeoran
+# zeoran
 
 ZEOlite RANdom generation
 
