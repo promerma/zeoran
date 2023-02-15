@@ -54,6 +54,7 @@ if [ -d "$var" ]; then
     		rm -r $var
     		mkdir $var
     		echo "Compiling the program..."
+    		echo "NOTE: If amount of Al atoms is too large, the program might be terminated without finishing. However, all the structures generated before (if any) wil be valid."
 		g++ functions.cpp
 		./a.out
 		echo "The program has finished."
@@ -64,6 +65,7 @@ if [ -d "$var" ]; then
 else
 	mkdir $var
 	echo "Compiling the program..."
+    	echo "NOTE: If amount of Al atoms is too large, the program might be terminated without finishing. However, all the structures generated before (if any) wil be valid."
 	g++ functions.cpp
 	./a.out
 	echo "The program has finished."
