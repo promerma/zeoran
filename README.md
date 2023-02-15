@@ -64,7 +64,7 @@ The first time, it might be necessary to give execution permission to the file e
 
 
 ## Structure of generate.input
-The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This strcture depends has a fixed part, and a part that depends on the algorithm we aim to use (chains/clusters/merw/random), since they require different parameters. Next, we specify the format of the input file in each case:
+The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This structure has a fixed part, and a part that depends on the algorithm we aim to use (chains/clusters/merw/random), since they require different parameters. Next, we specify the format of the input file in each case:
 
 #### chains:
 
