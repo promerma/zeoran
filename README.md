@@ -64,18 +64,14 @@ The first time, it might be necessary to give execution permission to the file e
 
 
 ## Structure of generate.input
-The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This strcture is as follows:
+The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This strcture depends has a fixed part, and a part that depends on the algorithm we aim to use (chains/clusters/merw/random), since they require different parameters. Next, we specify the format of the input file in each case:
+
+#### chains:
 
 	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
 	Algorithm (chains/clusters/merw/random)
 	Name_of_output_directory
 	Number_of_structures_to_be_generated
-	Extra_parameters
-
-The amount and type of Extra_parameters depend on the algorithm we are using (chains/clusters/merw/random). In each case, these parameters are:
-
-#### chains:
-
 	Number_of_chains
 	Number_of_substitutions_in_first_chain
 	Number_of_substitutions_in_second_chain
@@ -84,10 +80,18 @@ The amount and type of Extra_parameters depend on the algorithm we are using (ch
 
 #### clusters:
 
+	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+	Algorithm (chains/clusters/merw/random)
+	Name_of_output_directory
+	Number_of_structures_to_be_generated
 	Number_of_substitutions
 	
 #### merw:
-	
+
+	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+	Algorithm (chains/clusters/merw/random)
+	Name_of_output_directory
+	Number_of_structures_to_be_generated
 	Number_of_substitutions
 	Number_of_equilibration_steps
 	Number_of_visits
@@ -96,6 +100,10 @@ NOTE: The last two parameters are optional. If they are missing the default valu
 
 #### random:
 
+	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+	Algorithm (chains/clusters/merw/random)
+	Name_of_output_directory
+	Number_of_structures_to_be_generated
 	Number_of_substitutions
 
 ## How to work with a new zeolite
