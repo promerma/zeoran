@@ -58,7 +58,7 @@ The first time, it might be necessary to give execution permission to the file e
 
 #### Requirements:
 	
-	1. The compiler g++ needs to be installed.
+	1. The compiler g++ needs to be installed. In Linux this can be done by opening a terminal and typing: sudo apt install g++
 	2. The non-standard Eigen library needs to be installed. Download it here: https://eigen.tuxfamily.org/index.php?title=Main_Page
 	3. The data directory needs to be in the current directory.
 	4. The files functions.cpp, generate.input, global.h, heaaders.h and libraries.h need to be in the current directory.
