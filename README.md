@@ -48,31 +48,26 @@ Here the content of the repository is described.
 
 
 ## Run the program
-The repository contains an executable shell script that compiles and executes the program. To execute the program open the terminal in the directory containing this file and type:
 
-	./execute
+
+#### Requirements
 	
-The first time, it might be necessary to give execution permission to the file execute. This can be done by right-clicking on the file > Properties > Permissions > Click on "Allow executing file as program" or through the terminal by typing:
-
-	chmod +x execute
-
-#### Requirements:
-	
-	1. The compiler g++ needs to be installed. In Linux this can be done by:
-		#Check if it is already installed
-		g++ --version
-		#If it s not installed, then install it:
-		sudo apt install g++
+	1. The compiler g++ needs to be installed.
 		
-	2. The standard Eigen library needs to be installed. In Linux this can be done by:
-		#Check if it is already installed
-		dpkg -l | grep eigen
-		#If it s not installed, then install it:
-		sudo apt-get install libeigen3-dev
+	2. The standard Eigen library needs to be installed.
 	
-	3. The data directory needs to be in the current directory.
+#### Compilation and installation
+
+The program can be compiled and installed in the system using the makefile. Open a terminal in the directory containing all the files and introduce the commands:
+
+	1. make: Compilation
 	
-	4. The files functions.cpp, generate.input, global.h, heaaders.h and libraries.h need to be in the current directory.
+	2. sudo make install: Installation
+	
+#### Execution
+
+	./zeoran
+
 
 
 ## Structure of generate.input
