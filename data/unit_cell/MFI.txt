@@ -1,5 +1,0 @@
-Number of atoms:	288
-Number of T-atoms:	96
-a:			20.09
-b:			19.738
-c:			13.142
