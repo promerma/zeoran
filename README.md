@@ -52,22 +52,34 @@ Here the content of the repository is described.
 
 #### Requirements
 	
-	1. The compiler g++ needs to be installed.
-		
-	2. The standard Eigen library needs to be installed.
+	1. The compiler `g++` and `make` need to be installed. (`sudo apt-get install build-essential`)
+	2. The standard Eigen library needs to be installed. (`sudo apt-get install libeigen3-dev`)
 	
 #### Compilation and installation
 
 The program can be compiled and installed in the system using the makefile. Open a terminal in the directory containing all the files and introduce the commands:
 
+    	```
 	make
 	sudo make install
-	
+    	```
+
+After installing, the source folder may be removed from your user space.
+
 #### Execution
 
-	./zeoran
+    	```
+	zeoran
+    	```
 
+#### Uninstalling
 
+    	```
+        sudo make uninstall
+    	```
+
+make uninstallation is only available if you did not delete the source folder.
+If you did remove it, you can uninstall with `sudo rm -rf /usr/local/bin/zeoran /user/local/share/zeoran`
 
 ## Structure of generate.input
 The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This structure has a fixed part, and a part that depends on the algorithm we aim to use (chains/clusters/merw/random), since they require different parameters. Next, we specify the format of the input file in each case:
