@@ -78,8 +78,8 @@ zeoran
 sudo make uninstall
 ```
 
-make uninstallation is only available if you did not delete the source folder.
-If you did remove it, you can uninstall with `sudo rm -rf /usr/local/bin/zeoran /user/local/share/zeoran`
+Uninstallation via `make` is only available if you did not delete the source folder.
+If you did remove it, you can uninstall zeoran with `sudo rm -rf /usr/local/bin/zeoran /user/local/share/zeoran`
 
 ## Structure of generate.input
 The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This structure has a fixed part, and a part that depends on the algorithm we aim to use (chains/clusters/merw/random), since they require different parameters. Next, we specify the format of the input file in each case:
