@@ -26,25 +26,16 @@ For a detailed description of the algorithms used to generate the zeolite framew
 ## Content
 Here the content of the repository is described. 
 
-(1) zeoran_data/atom_sites: Contains the atomic positions of all the atoms forming a single unit cell of each zeolite. The structure of a line of this file is: atom_id atom_type x y z charge.
-
-(2) zeoran_data/unit_cell: Contains the basic information of the unit cell of each framework.
-
-(3) makefile: script to compile and install the program.
-
-(4) functions.cpp: contains all the functions implemented to run the program, including the main function.
-
-(5) generate.input: input file.
-
-(6) zeoran.pdf: detailed explanation of the program.
-
-(7) global.h: contains the definition of the global variables and structures used in the program.
-
-(8) headers.h: contains the headers of all the functions written in the file "functions.cpp".
-
-(9) libraries.h: contains all the libraries used.
-
-(10) log.dat: contains the current state of the program and changes and improvements that still need to be done.
+  1. `zeoran_data/atom_sites`: Contains the atomic positions of all the atoms forming a single unit cell of each zeolite. The structure of a line of this file is: atom_id atom_type x y z charge.
+  2. `zeoran_data/unit_cell`: Contains the basic information of the unit cell of each framework.
+  3. `Makefile`: script to compile and install the program.
+  4. `zeoran.cpp`: contains all the functions implemented to run the program, including the main function.
+  5. `generate.input`: input file.
+  6. `zeoran.pdf`: detailed explanation of the program.
+  7. `global.h`: contains the definition of the global variables and structures used in the program.
+  8. `headers.h`: contains the headers of all the functions written in the file "functions.cpp".
+  9. `libraries.h`: contains all the libraries used.
+  10. `log.dat`: contains the current state of the program and changes and improvements that still need to be done.
 
 
 ## Run the program
@@ -86,43 +77,51 @@ The generate.input file needs to have a particular structure. Please, note that 
 
 #### chains:
 
-	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
-	Algorithm (chains/clusters/merw/random)
-	Name_of_output_directory
-	Number_of_structures_to_be_generated
-	Number_of_chains
-	Number_of_substitutions_in_first_chain
-	Number_of_substitutions_in_second_chain
-	...
-	Number_of_substitutions_in_last_chain
+```
+Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Algorithm (chains/clusters/merw/random)
+Name_of_output_directory
+Number_of_structures_to_be_generated
+Number_of_chains
+Number_of_substitutions_in_first_chain
+Number_of_substitutions_in_second_chain
+...
+Number_of_substitutions_in_last_chain
+```
 
 #### clusters:
 
-	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
-	Algorithm (chains/clusters/merw/random)
-	Name_of_output_directory
-	Number_of_structures_to_be_generated
-	Number_of_substitutions
+```
+Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Algorithm (chains/clusters/merw/random)
+Name_of_output_directory
+Number_of_structures_to_be_generated
+Number_of_substitutions
+```
 	
 #### merw:
 
-	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
-	Algorithm (chains/clusters/merw/random)
-	Name_of_output_directory
-	Number_of_structures_to_be_generated
-	Number_of_substitutions
-	Number_of_equilibration_steps
-	Number_of_visits
+```
+Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Algorithm (chains/clusters/merw/random)
+Name_of_output_directory
+Number_of_structures_to_be_generated
+Number_of_substitutions
+Number_of_equilibration_steps
+Number_of_visits
+```
 
 NOTE: The last two parameters are optional. If they are missing the default values are 100 and 20 respectively. Note that if changed, both of them need to be specified. More information about these parameters can be found in the file generate_zeolite_frameworks.pdf.
 
 #### random:
 
-	Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
-	Algorithm (chains/clusters/merw/random)
-	Name_of_output_directory
-	Number_of_structures_to_be_generated
-	Number_of_substitutions
+```
+Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Algorithm (chains/clusters/merw/random)
+Name_of_output_directory
+Number_of_structures_to_be_generated
+Number_of_substitutions
+```
 
 ## How to work with a new zeolite
 
