@@ -60,9 +60,8 @@ Here the content of the repository is described.
 
 The program can be compiled and installed in the system using the makefile. Open a terminal in the directory containing all the files and introduce the commands:
 
-	1. make: Compilation
-	
-	2. sudo make install: Installation
+	make
+	sudo make install
 	
 #### Execution
 
