@@ -30,7 +30,7 @@ Here the content of the repository is described.
   5. `generate.input`: input file.
   6. `zeoran.pdf`: detailed explanation of the program.
   7. `global.h`: contains the definition of the global variables and structures used in the program.
-  8. `headers.h`: contains the headers of all the functions written in the file "functions.cpp".
+  8. `headers.h`: contains the headers of all the functions written in the file "zeoran.cpp".
   9. `libraries.h`: contains all the libraries used.
   10. `log.dat`: contains the current state of the program and changes and improvements that still need to be done.
 
