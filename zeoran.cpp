@@ -72,8 +72,8 @@ int main (void) {
 	fin.close();
 
 	//Read zeolite and unit cell
-	file_zeo = "/usr/include/zeoran_data/atom_sites/" + name_zeo + ".txt";
-	file_ucell = "/usr/include/zeoran_data/unit_cell/" + name_zeo + ".txt";
+	file_zeo = "/usr/local/share/zeoran/atom_sites/" + name_zeo + ".txt";
+	file_ucell = "/usr/local/share/zeoran/unit_cell/" + name_zeo + ".txt";
 
 	read_unit_cell(file_ucell);
 	list = read_atom_sites(file_zeo);
