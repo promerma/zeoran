@@ -26,11 +26,11 @@ For a detailed description of the algorithms used to generate the zeolite framew
 ## Content
 Here the content of the repository is described. 
 
-(1) data/atom_sites: Contains the atomic positions of all the atoms forming a single unit cell of each zeolite. The structure of a line of this file is: atom_id atom_type x y z charge.
+(1) zeoran_data/atom_sites: Contains the atomic positions of all the atoms forming a single unit cell of each zeolite. The structure of a line of this file is: atom_id atom_type x y z charge.
 
-(2) data/unit_cell: Contains the basic information of the unit cell of each framework.
+(2) zeoran_data/unit_cell: Contains the basic information of the unit cell of each framework.
 
-(3) execute: shell script to run the program.
+(3) makefile: script to compile and install the program.
 
 (4) functions.cpp: contains all the functions implemented to run the program, including the main function.
 
