@@ -34,6 +34,7 @@ Here the content of the repository is described.
   8. `headers.h`: contains the headers of all the functions written in the file "zeoran.cpp".
   9. `libraries.h`: contains all the libraries used.
   10. `log.dat`: contains the current state of the program and changes and improvements that still need to be done.
+  11. `cover.png`: cover figure of the README.md file
 
 
 ## Run the program
