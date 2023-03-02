@@ -1,7 +1,7 @@
 # zeoran
 
 ZEOlite RANdom generation
-![alt text](https://github.com/promerma/zeoran/TOC.png)
+![alt text](https://github.com/promerma/zeoran/blob/main/TOC.png)
 
 ## Author's information
 	Pablo Romero Marimon
