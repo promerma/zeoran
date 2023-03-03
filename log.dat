@@ -1,13 +1,2 @@
 Author's latest update: Pablo Romero Marimon
-Date of latest update: March 2, 2023
-
-State of the program:
-  
-  -The algorithms random and clusters work fine in all cases.
-  
-  -The algorithms chains and merw might fail when the Si/Al ratio is too low. This is because for many Al substitutions it can be hard to allocate the atoms stocastically while fulfilling the restraints.
-
-
-Remaining in the TODO list:
-
-  -The algorithms chains and merw should be improved so they always lead to a valid structure, or send a message when this is not possible.
+Date of latest update: March 3, 2023
