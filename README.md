@@ -40,7 +40,7 @@ Here the content of the repository is described.
   8. `headers.h`: contains the headers of all the functions written in the file "zeoran.cpp".
   9. `libraries.h`: contains all the libraries used.
   10. `log.dat`: contains the current state of the program and changes and improvements that still need to be done.
-  11. `cover.png`: cover figure of the README.md file
+  11. `cover.png`: cover figure of the README.md file.
 
 
 ## Run the program
@@ -48,8 +48,8 @@ Here the content of the repository is described.
 
 #### Requirements
 	
-  1. The compiler `g++` and `make` need to be installed. (`sudo apt-get install build-essential`)
-  2. The standard Eigen library needs to be installed. (`sudo apt-get install libeigen3-dev`)
+  1. The compiler `g++` and `make` need to be installed. (`sudo apt-get install build-essential`).
+  2. The standard Eigen library needs to be installed. (`sudo apt-get install libeigen3-dev`).
 	
 #### Compilation and installation
 
@@ -75,7 +75,7 @@ sudo make uninstall
 ```
 
 Uninstallation via `make` is only available if you did not delete the source folder.
-If you did remove it, you can uninstall zeoran with `sudo rm -rf /usr/local/bin/zeoran /user/local/share/zeoran`
+If you did remove it, you can uninstall zeoran with `sudo rm -rf /usr/local/bin/zeoran /user/local/share/zeoran`.
 
 ## Structure of generate.input
 The generate.input file needs to have a particular structure. Please, note that he number of parameters and their order cannot be changed. This structure has a fixed part, and a part that depends on the algorithm we aim to use (chains/clusters/merw/random), since they require different parameters. Next, we specify the format of the input file in each case:
