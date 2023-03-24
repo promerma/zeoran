@@ -17,7 +17,7 @@ P. Romero-Marimon *et al.*, "Adsorption of carbon dioxide in non-Löwenstein zeo
 	February 10, 2023
 
 ## Description
-This repository was done as part of my Master's thesis at the MS&M group. Its main goal is to generate multiple .cif files with zeolite structures having different aluminum substitutions. The aluminum substitutions are randomly generated from 4 different probability distributions, implemented by 4 different algorithms:
+This repository was done as part of my Master's thesis at the MS&M group at the Eindhoven University of Technology. Its main goal is to generate multiple .cif files with zeolite structures having different aluminum distributions. The aluminum substitutions are randomly generated from 4 different probability distributions, implemented by 4 different algorithms:
 
   1. chains: Al atoms are introduced forming chains of consecutive Al-O-Al bonds. The number and lengths of the chains are given as an input.
   2. clusters: A given number of Al atoms are introduced in a small spatial region.
