@@ -1,8 +1,7 @@
-# zeoran
 
 ![alt text](https://github.com/promerma/zeoran/blob/main/cover2.png)
 
-
+# zeoran
 ZEOlite RANdom generation
 
 
