@@ -24,7 +24,7 @@ This repository was done as part of my Master's thesis at the MS&M group at the 
   3. merw: A given number of Al atoms are introduced "as spread as possibly" in the structure, i.e., maximizing the entropy of the framework.
   4. random: A given number of Al atoms are introduced by sampling a uniform distribution.
 
-For a detailed description of the algorithms used to generate the zeolite frameworks and the program itself, please check the .pdf file available in this repository. The software is entirely written in C/C++ and contains a Shell script to execute it. 
+For a detailed description of the algorithms used to generate the zeolite frameworks and the program itself, please check the .pdf file available in this repository. The software is entirely written in C/C++.
 
 
 ## Content
