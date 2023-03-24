@@ -6,7 +6,7 @@ This software was developed and used for the writing of the paper:
 P. Romero-Marimon *et al.*, "Adsorption of carbon dioxide in non-Löwenstein zeolites".
 
 
-![alt text](https://github.com/promerma/zeoran/blob/main/cover2.png)
+![alt text](https://github.com/promerma/zeoran/blob/main/cover.png)
 
 
 ## Author's information
