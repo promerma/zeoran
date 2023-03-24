@@ -14,7 +14,7 @@ P. Romero-Marimon *et al.*, "Adsorption of carbon dioxide in non-Löwenstein zeo
 	Eindhoven University of Technology
 	Department of Applied Physics
 	Materials Simulation and Modelling group
-	February 10, 2023
+	March 24, 2023
 
 ## Description
 This repository was done as part of my Master's thesis at the MS&M group at the Eindhoven University of Technology. Its main goal is to generate multiple .cif files with zeolite structures having different aluminum distributions. The aluminum substitutions are randomly generated from 4 different probability distributions, implemented by 4 different algorithms:
