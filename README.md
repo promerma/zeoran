@@ -83,7 +83,7 @@ The generate.input file needs to have a particular structure. Please, note that 
 #### chains:
 
 ```
-Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Zeolite (MFI/MOR/FAU/RHO/MEL/DDR/TON/new)
 Algorithm (chains/clusters/merw/random)
 Name_of_output_directory
 Number_of_structures_to_be_generated
@@ -97,7 +97,7 @@ Number_of_substitutions_in_last_chain
 #### clusters:
 
 ```
-Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Zeolite (MFI/MOR/FAU/RHO/MEL/DDR/TON/new)
 Algorithm (chains/clusters/merw/random)
 Name_of_output_directory
 Number_of_structures_to_be_generated
@@ -107,7 +107,7 @@ Number_of_substitutions
 #### merw:
 
 ```
-Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Zeolite (MFI/MOR/FAU/RHO/MEL/DDR/TON/new)
 Algorithm (chains/clusters/merw/random)
 Name_of_output_directory
 Number_of_structures_to_be_generated
@@ -121,7 +121,7 @@ NOTE: The last two parameters are optional. If they are missing the default valu
 #### random:
 
 ```
-Zeolite (MFI/MOR/FAU/RHO/MEL/TON/new)
+Zeolite (MFI/MOR/FAU/RHO/MEL/DDR/TON/new)
 Algorithm (chains/clusters/merw/random)
 Name_of_output_directory
 Number_of_structures_to_be_generated
