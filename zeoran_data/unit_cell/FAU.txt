@@ -1,0 +1,9 @@
+Number of atoms:	576
+Number of T-atoms:	192
+a:			24.2576
+b:			24.2576
+c:			24.2576
+alpha:			90
+beta:			90
+gamma:			90
+setting:		cubic

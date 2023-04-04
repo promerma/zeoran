@@ -1,0 +1,9 @@
+Number of atoms:	72
+Number of T-atoms:	24
+a:			14.105
+b:			17.842
+c:			5.256
+alpha:			90
+beta:			90
+gamma:			90
+setting:		orthorhombic

@@ -1,0 +1,9 @@
+Number of atoms:	360
+Number of T-atoms:	120
+a:			13.795
+b:			13.795
+c:			40.75
+alpha:			90
+beta:			90
+gamma:			120
+setting:		trigonal
