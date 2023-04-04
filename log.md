@@ -1,5 +1,11 @@
+## Log file
+
+### Latest update
+
 Author's latest update: Pablo Romero Marimon
 Date of latest update: April 4, 2023
+
+### Version log
 
 Version 1.0 (March 3, 2023): First version of the program.
 
